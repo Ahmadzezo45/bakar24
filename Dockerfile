@@ -1,14 +1,20 @@
-FROM fedora:37
 
-RUN sudo dnf -y update &&\
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&\
-    sudo dnf install -y git ffmpeg ImageMagick nodejs libwebp yarnpkg &&\
-    sudo dnf clean all -y
+FROM node:lts-buster
 
-WORKDIR /bakarbot
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
 
-COPY . /bakarbot
+COPY package.json .
 
-RUN yarn
+RUN npm install && npm install qrcode-terminal
 
-CMD ["node", "."]
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "index.js", "--server"]
