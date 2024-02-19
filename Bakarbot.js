@@ -2627,458 +2627,6 @@ sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 
 //----END HERE--------\\
 
-case 'candy': case 'christmas': case '3dchristmas': case 'sparklechristmas':
-	case 'deepsea': case 'scifi': case 'rainbow2': case 'waterpipe': case 'spooky': 
-	case 'pencil': case 'circuit': case 'discovery': case 'metalic': case 'fiction': case 'demon': 
-	case 'transformer': case 'berry': case 'thunder': case '.': case '3dstone2': 
-	case 'neonlight': case 'glitch': case 'harrypotter': case 'brokenglass': case 'papercut': 
-	case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 'graffitibike':
-	 case 'snow': case 'cloud': case 'honey': case 'ice': case 'fruitjuice': case 'biscuit': case 'wood': 
-	case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
-	case 'lava': case 'rockart': case 'bloodglas': case 'halloween': case 'darkgold': case 'joker': case 'wicker':
-	 case 'firework': case 'skeleton': case 'blackpinkart': case 'sand': case 'glue': case '1917': case 'leaves': case 'demon': {
-				 if (!q) throw `Example : ${prefix + command} fdfdff`
-				 m.reply(mess.wait)
-				 let link
-				 if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
-				 if (/christmas/.test(command)) link = 'https://textpro.me/christmas-tree-text-effect-online-free-1057.html'
-				 if (/3dchristmas/.test(command)) link = 'https://textpro.me/3d-christmas-text-effect-by-name-1055.html'
-				 if (/sparklechristmas/.test(command)) link = 'https://textpro.me/sparkles-merry-christmas-text-effect-1054.html'
-				 if (/deepsea/.test(command)) link = 'https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html'
-				 if (/scifi/.test(command)) link = 'https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html'
-				 if (/rainbow/.test(command)) link = 'https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html'
-				 if (/waterpipe/.test(command)) link = 'https://textpro.me/create-3d-water-pipe-text-effects-online-1048.html'
-				 if (/spooky/.test(command)) link = 'https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html'
-				 if (/pencil/.test(command)) link = 'https://textpro.me/create-a-sketch-text-effect-online-1044.html'
-				 if (/circuit/.test(command)) link = 'https://textpro.me/create-blue-circuit-style-text-effect-online-1043.html'
-				 if (/discovery/.test(command)) link = 'https://textpro.me/create-space-text-effects-online-free-1042.html'
-				 if (/metalic/.test(command)) link = 'https://textpro.me/creat-glossy-metalic-text-effect-free-online-1040.html'
-				 if (/fiction/.test(command)) link = 'https://textpro.me/create-science-fiction-text-effect-online-free-1038.html'
-				 if (/demon/.test(command)) link = 'https://textpro.me/create-green-horror-style-text-effect-online-1036.html'
-				 if (/transformer/.test(command)) link = 'https://textpro.me/create-a-transformer-text-effect-online-1035.html'
-				 if (/berry/.test(command)) link = 'https://textpro.me/create-berry-text-effect-online-free-1033.html'
-				 if (/thunder/.test(command)) link = 'https://textpro.me/online-thunder-text-effect-generator-1031.html'
-				 if (/magma/.test(command)) link = 'https://textpro.me/create-a-magma-hot-text-effect-online-1030.html'
-				 if (/3dstone2/.test(command)) link = 'https://textpro.me/create-a-3d-stone-text-effect-online-for-free-1073.html'
-				 if (/neonlight/.test(command)) link = 'https://textpro.me/create-3d-neon-light-text-effect-online-1028.html'
-				 if (/glitch/.test(command)) link = 'https://textpro.me/create-impressive-glitch-text-effects-online-1027.html'
-				 if (/harrypotter/.test(command)) link = 'https://textpro.me/create-harry-potter-text-effect-online-1025.html'
-				 if (/brokenglass/.test(command)) link = 'https://textpro.me/broken-glass-text-effect-free-online-1023.html'
-				 if (/papercut/.test(command)) link = 'https://textpro.me/create-art-paper-cut-text-effect-online-1022.html'
-				 if (/watercolor/.test(command)) link = 'https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html'
-				 if (/multicolor/.test(command)) link = 'https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.html'
-				 if (/neondevil/.test(command)) link = 'https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html'
-				 if (/underwater/.test(command)) link = 'https://textpro.me/3d-underwater-text-effect-generator-online-1013.html'
-				 if (/graffitibike/.test(command)) link = 'https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html'
-				 if (/snow/.test(command)) link = 'https://textpro.me/create-snow-text-effects-for-winter-holidays-1005.html'
-				 if (/cloud/.test(command)) link = 'https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html'
-				 if (/honey/.test(command)) link = 'https://textpro.me/honey-text-effect-868.html'
-				 if (/ice/.test(command)) link = 'https://textpro.me/ice-cold-text-effect-862.html'
-				 if (/fruitjuice/.test(command)) link = 'https://textpro.me/fruit-juice-text-effect-861.html'
-				 if (/biscuit/.test(command)) link = 'https://textpro.me/biscuit-text-effect-858.html'
-				 if (/wood/.test(command)) link = 'https://textpro.me/wood-text-effect-856.html'
-				 if (/chocolate/.test(command)) link = 'https://textpro.me/chocolate-cake-text-effect-890.html'
-				 if (/strawberry/.test(command)) link = 'https://textpro.me/strawberry-text-effect-online-889.html'
-				 if (/matrix/.test(command)) link = 'https://textpro.me/matrix-style-text-effect-online-884.html'
-				 if (/blood/.test(command)) link = 'https://textpro.me/horror-blood-text-effect-online-883.html'
-				 if (/dropwater/.test(command)) link = 'https://textpro.me/dropwater-text-effect-872.html'
-				 if (/toxic/.test(command)) link = 'https://textpro.me/toxic-text-effect-online-901.html'
-				 if (/lava/.test(command)) link = 'https://textpro.me/lava-text-effect-online-914.html'
-				 if (/rockart/.test(command)) link = 'https://textpro.me/rock-text-effect-online-915.html'
-				 if (/bloodglas/.test(command)) link = 'https://textpro.me/blood-text-on-the-frosted-glass-941.html'
-				 if (/halloween/.test(command)) link = 'https://textpro.me/halloween-fire-text-effect-940.html'
-				 if (/darkgold/.test(command)) link = 'https://textpro.me/metal-dark-gold-text-effect-online-939.html'
-				 if (/joker/.test(command)) link = 'https://textpro.me/create-logo-joker-online-934.html'
-				 if (/wicker/.test(command)) link = 'https://textpro.me/wicker-text-effect-online-932.html'
-				 if (/firework/.test(command)) link = 'https://textpro.me/firework-sparkle-text-effect-930.html'
-				 if (/skeleton/.test(command)) link = 'https://textpro.me/skeleton-text-effect-online-929.html'
-				 if (/blackpinkart/.test(command)) link = 'https://textpro.me/create-blackpink-logo-style-online-1001.html'
-				 if (/sand/.test(command)) link = 'https://textpro.me/write-in-sand-summer-beach-free-online-991.html'
-				 if (/glue/.test(command)) link = 'https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html'
-				 if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
-					if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'           
-				 let anutexpro = await maker.textpro(link, q)
-					BakarBotInc.sendMessage(m.chat, { image: { url: anutexpro }, caption: `thhh` }, { quoted: m })
-				 }
-				 break;;;;;;
-
-////////////////------------/\
-
-
-
-
-case 'glitchtext':
-case 'writetext':
-case 'advancedglow':
-case 'typographytext':
-case 'pixelglitch':
-case 'neonglitch':
-case 'flagtext':
-case 'flag3dtext':
-case 'deletingtext':
-case 'blackpinkstyle':
-case 'glowingtext':
-case 'underwatertext':
-case 'logomaker':
-case 'cartoonstyle':
-case 'papercutstyle':
-case 'watercolortext':
-case 'effectclouds':
-case 'blackpinklogo':
-case 'gradienttext':
-case 'summerbeach':
-case 'luxurygold':
-case 'multicoloredneon':
-case 'sandsummer':
-case 'galaxywallpaper':
-case '1917style':
-case 'makingneon':
-case 'royaltext':
-case 'freecreate':
-case 'galaxystyle':
-case 'lighteffects':{
-
-if (!q) return reply(`Example : ${prefix+command} BakarBotInc`) 
-let link
-if (/glitchtext/.test(command)) link = 'https://en.ephoto360.com/create-digital-glitch-text-effects-online-767.html'
-if (/writetext/.test(command)) link = 'https://en.ephoto360.com/write-text-on-wet-glass-online-589.html'
-if (/advancedglow/.test(command)) link = 'https://en.ephoto360.com/advanced-glow-effects-74.html'
-if (/typographytext/.test(command)) link = 'https://en.ephoto360.com/create-typography-text-effect-on-pavement-online-774.html'
-if (/pixelglitch/.test(command)) link = 'https://en.ephoto360.com/create-pixel-glitch-text-effect-online-769.html'
-if (/neonglitch/.test(command)) link = 'https://en.ephoto360.com/create-impressive-neon-glitch-text-effects-online-768.html'
-if (/flagtext/.test(command)) link = 'https://en.ephoto360.com/nigeria-3d-flag-text-effect-online-free-753.html'
-if (/flag3dtext/.test(command)) link = 'https://en.ephoto360.com/free-online-american-flag-3d-text-effect-generator-725.html'
-if (/deletingtext/.test(command)) link = 'https://en.ephoto360.com/create-eraser-deleting-text-effect-online-717.html'
-if (/blackpinkstyle/.test(command)) link = 'https://en.ephoto360.com/online-blackpink-style-logo-maker-effect-711.html'
-if (/glowingtext/.test(command)) link = 'https://en.ephoto360.com/create-glowing-text-effects-online-706.html'
-if (/underwatertext/.test(command)) link = 'https://en.ephoto360.com/3d-underwater-text-effect-online-682.html'
-if (/logomaker/.test(command)) link = 'https://en.ephoto360.com/free-bear-logo-maker-online-673.html'
-if (/cartoonstyle/.test(command)) link = 'https://en.ephoto360.com/create-a-cartoon-style-graffiti-text-effect-online-668.html'
-if (/papercutstyle/.test(command)) link = 'https://en.ephoto360.com/multicolor-3d-paper-cut-style-text-effect-658.html'
-if (/watercolortext/.test(command)) link = 'https://en.ephoto360.com/create-a-watercolor-text-effect-online-655.html'
-if (/effectclouds/.test(command)) link = 'https://en.ephoto360.com/write-text-effect-clouds-in-the-sky-online-619.html'
-if (/blackpinklogo/.test(command)) link = 'https://en.ephoto360.com/create-blackpink-logo-online-free-607.html'
-if (/gradienttext/.test(command)) link = 'https://en.ephoto360.com/create-3d-gradient-text-effect-online-600.html'
-if (/summerbeach/.test(command)) link = 'https://en.ephoto360.com/write-in-sand-summer-beach-online-free-595.html'
-if (/luxurygold/.test(command)) link = 'https://en.ephoto360.com/create-a-luxury-gold-text-effect-online-594.html'
-if (/multicoloredneon/.test(command)) link = 'https://en.ephoto360.com/create-multicolored-neon-light-signatures-591.html'
-if (/sandsummer/.test(command)) link = 'https://en.ephoto360.com/write-in-sand-summer-beach-online-576.html'
-if (/galaxywallpaper/.test(command)) link = 'https://en.ephoto360.com/create-galaxy-wallpaper-mobile-online-528.html'
-if (/1917style/.test(command)) link = 'https://en.ephoto360.com/1917-style-text-effect-523.html'
-if (/makingneon/.test(command)) link = 'https://en.ephoto360.com/making-neon-light-text-effect-with-galaxy-style-521.html'
-if (/royaltext/.test(command)) link = 'https://en.ephoto360.com/royal-text-effect-online-free-471.html'
-if (/freecreate/.test(command)) link = 'https://en.ephoto360.com/free-create-a-3d-hologram-text-effect-441.html'
-if (/galaxystyle/.test(command)) link = 'https://en.ephoto360.com/create-galaxy-style-free-name-logo-438.html'
-if (/lighteffects/.test(command)) link = 'https://en.ephoto360.com/create-light-effects-green-neon-online-429.html'
-let haldwhd = await ephoto(link, q)
-BakarBotInc.sendMessage(m.chat, { image: { url: haldwhd }, caption: `ffff` }, { quoted: m })
-}
-break;;;;;;
-
- 
-//----PHOTOOXY------\\
-case 'silk':  
-case '3dnature': 
-case 'bevel': 
-case 'birthdaycake': 
-case  'burnpaper':  
-case 'coffee': 
-case 'coffee-heartcup': 
-case 'embroiderytext': 
-case 'flaming': 
-case 'flowertypo': 
-case 'funnycup': 
-case 'fur': 
-case 'gerbang': 
-case 'glowrainbow': 
-case 'gradientavatar': 
-case 'graffititext': 
-case 'harrypotter': 
-case 'lovemessage': 
-case 'luxuryroyal': 
-case 'neonlight': 
-case 'sweetcandy': 
-case 'summertext': 
-case 'woodheart': 
-case 'woodblock': 
-case 'yellowroses': 
-case 'wolfmetal': 
-case 'underwaterocean': {
-if (!text) throw `Example : ${prefix + command} text`
-anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
-BakarBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
-  title:"ᴢɪᴍ ʙᴏᴛ ᴠ5",
-  body:"SUBSCRIBE DRIPS OFC",
-  showAdAttribution: true,
-  mediaType:2,
-  thumbnail: fs.readFileSync(`./drips.jpg`) ,
-  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
-}
-break;;;;;;;;
-
-//---END HERE------\\
-
-//CREATED BY DRIPS
-
-//----EPHOTO-------\\
-case '3d-wood': 
-case 'angels-wings': 
-case 'snake-text': 
-case 'redhot-metal2': 
-case 'sandsummer-beach': 
-case 'snow-text': 
-case 'water-3d': 
-case 'water-effect': 
-case 'wet-glass': 
-case 'status-mood2': 
-case 'summerysand': {
-if (!text) throw `Example : ${prefix + command} nama anime`
-anu = await getBuffer(`https://violetics.pw/api/ephoto360/${command}?apikey=beta&text=${text}`)
-BakarBotInc.sendMessage(m.chat, { image: anu, caption: `*EPHOTO ${command}*` }, {quoted: m})
-}
-break;;;;;;;;
-
-
-case 'ary': 
-case 'arygameplays': {
-replay(mess.wait)
-let buttons = [
-{buttonId: `ary`, buttonText: {displayText: 'NEXT'}, type: 1}
-]
-let anu = await fetchJson(`https://wallebotapi.mitomods.com/docs/random/arygameplays?apikey=Donitas`)
-let buttonMessage = {
-image: { url: `${anu.result}` },
-caption: `Arygameplays`,
-footer: global.botnma,
-buttons: buttons,
-headerType: 4
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-}
-break;;;;;;;;
-break;;;;;;;;
-case 'emojiapple':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "0")
-break;;;;;;;;
-case 'emojigoogle':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "1")
-break;;;;;;;;
-case 'emojisamsung':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "2")
-break;;;;;;;;
-case 'emojimicrosoft':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "3")
-break;;;;;;;;
-case 'emojiwhatsapp':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "4")
-break;;;;;;;;
-case 'emojitwitter':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "5")
-break;;;;;;;;
-case 'emojifecabook':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "6")
-break;;;;;;;;
-case 'emojiskype':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "7")
-break;;;;;;;;
-case 'emojijoy':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "8")
-break;;;;;;;;
-case 'emojimoji':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "9")
-case 'emojipedia':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "10")
-break;;;;;;;;
-case 'emojilg':
-if (!q) return reply("*Insert emoji, maximum 1 emoji, example?*" + ` ${prefix + command} 😀`)
-reply("[❗] *BEING PROCESSED*")
-emote(q, "11")
-break;;;;;;;;
-case 'news':
-// and we need jsdom and Readability to parse the article HTML
-
-let urltt = 'https://newsapi.org/v2/everything?' +
-`q=${text}&` +
-'sortBy=publishedAt&' +
-'apiKey=306032cefd134ab38660d7db51dd18d1';
-// First lets get some search data from News API
-
-// Build the URL we are going request. This will get articles related to Apple and sort them newest first
-
-// Make the request with axios' get() function
-axios.get(urltt).then(function(r1) {
-
-  // At this point we will have some search results from the API. Take the first search result...
-  let firstResult = r1.data.articles[0];
-
-  // ...and download the HTML for it, again with axios
-  axios.get(firstResult.url).then(function(r2) {
-
-    // We now have the article HTML, but before we can use Readability to locate the article content we need jsdom to convert it into a DOM object
-    let dom = new JSDOM(r2.data, {
-      url: firstResult.url
-    });
-
-    // now pass the DOM document into readability to parse
-    let article = new Readability(dom.window.document).parse();
-
-    // Done! The article content is in the textContent property
-    console.log(color(article.textContent));
-    reply(article.textContent)
-  })
-})
-break;;;;;;;;
-/* case 'drips':
-  // First lets get some search data from News API
-
-// Build the URL we are going request. This will get articles related to Apple and sort them newest first
-let urlttt = 'https://newsapi.org/v2/top-headlines?' +
-`country=za&apiKey=` +
-'306032cefd134ab38660d7db51dd18d1';
-
-// Make the request with axios' get() function
-axios.get(urlttt).then(function(r1) {
-
-  // At this point we will have some search results from the API. Take the first search result...
-  let firstResult = r1.data.articles[0];
-
-  // ...and download the HTML for it, again with axios
-  axios.get(firstResult.url).then(function(r2) {
-
-    // We now have the article HTML, but before we can use Readability to locate the article content we need jsdom to convert it into a DOM object
-    let dom = new JSDOM(r2.data, {
-      url: firstResult.url
-    });
-
-    // now pass the DOM document into readability to parse
-    let article = new Readability(dom.window.document).parse();
-
-    // Done! The article content is in the textContent property
-    console.log(color(article.textContent));
-    reply(article.textContent)
-  })
-})
-    break;;;;;;;;
-    */
-case 'topheadlines':
-  
-  // First lets get some search data from News API
-
-// Build the URL we are going request. This will get articles related to Apple and sort them newest first
-let dhongi = 'https://newsapi.org/v2/top-headlines/sources?bbc-news&apiKey=' +
-'306032cefd134ab38660d7db51dd18d1';
-
-// Make the request with axios' get() function
-axios.get(dhongi).then(function(r1) {
-
-  // At this point we will have some search results from the API. Take the first search result...
-  let firstResult = r1.data.articles[0];
-
-  // ...and download the HTML for it, again with axios
-  axios.get(firstResult.url).then(function(r2) {
-
-    // We now have the article HTML, but before we can use Readability to locate the article content we need jsdom to convert it into a DOM object
-    let dom = new JSDOM(r2.data, {
-      url: firstResult.url
-    });
-
-    // now pass the DOM document into readability to parse
-    let article = new Readability(dom.window.document).parse();
-
-    // Done! The article content is in the textContent property
-    console.log(color(article.textContent));
-    reply(article.textContent)
-  })
-})
-  break;;;;;;;;
-  case 'googlenews':
-  const request = require('request');
-
-const options = {
-  method: 'GET',
-  url: 'https://google-news1.p.rapidapi.com/search',
-  qs: {
-    q: `${text}`,
-    country: 'ZW',
-    lang: 'en',
-    source: 'iharare.com',
-    limit: '100',
-    when: '30d'
-  },
-  headers: {
-    'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',
-    'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
-    useQueryString: true
-  }
-};
-
-request(options, function (error, response, body) {
-	if (error) throw new Error(error);
-
-	reply(body);
-});
-break;;;;;;;;
-case 'hackernews':
-const drips = {
-  method: 'GET',
-  url: 'https://community-hacker-news-v1.p.rapidapi.com/topstories.json',
-  qs: {print: 'pretty'},
-  headers: {
-    'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',
-    'X-RapidAPI-Host': 'community-hacker-news-v1.p.rapidapi.com',
-    useQueryString: true
-  }
-};
-let dhuripi = require('request')
-dhuripi(drips, function (error, response, body) {
-	if (error) throw new Error(error);
-reply(body)
-	console.log(body);
-});
-break;;;;;;;;
-case 'gnews':
-reply(mess.wait)
-const dripbabe = {
-  method: 'GET',
-  url: 'https://google-news.p.rapidapi.com/v1/search',//By drips 
-  qs: {q: `${text}`, country: 'ZW', lang: 'en'}, //put your country on string: country://
-  headers: {
-    'X-RapidAPI-Key': '837661b454msh274b6753ca80823p11c653jsn973bb2a55a34',// 3 request per hour
-    'X-RapidAPI-Host': 'google-news.p.rapidapi.com',// if you with more request please visit https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/google-news/pricing
-    useQueryString: true
-  }
-};
-let gnews = require('request')
-gnews(dripbabe, function (error, response, body) {//removing credits is not an option
-	if (error) throw new Error(error);
-  reply(body);
-	console.log(body);
-});
-break;;;;;;;;
-
 //----OTHERS---\\
 case 'رفع-مطور': {
   if (isBan) return reply(mess.ban)         
@@ -9781,7 +9329,10 @@ case 'مواد': case 'المواد': case 'منهج': case 'المنهج': case
   📙╢ ❬ #14 ❭ محاسبة شركات اموال
   📘╢ ❬ #15 ❭ تجارة خارجية
   📙╜ ❬ #16 ❭ دراسات اقتصادية بلغة E
-  ـــــــــــــــــــــــــــــــــــــــــــــ`
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  `
   
   let buttonMessage = {
   video: fs.readFileSync('./Bakarbot/botbakar.mp4'), gifPlayback: true,
@@ -9816,7 +9367,9 @@ case '#11':{
 📙╢ ❬ #114 ❭ محاضرة 4
 📘╢ ❬ #115 ❭ محاضرة 5
 📙╜ ❬ #116 ❭ محاضرة 6
-ـــــــــــــــــــــــــــــــــــــــــــــ`)
+ـــــــــــــــــــــــــــــــــــــــــــــ
+📚︙ لينك جروبنا الرسمي 
+📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
   }
      break;;;;;
 
@@ -9835,7 +9388,9 @@ case '#12': {
 📙╢ ❬ #214 ❭ محاضرة 4
 📘╢ ❬ #215 ❭ محاضرة 5
 📙╜ ❬ #216 ❭ محاضرة 6
-ـــــــــــــــــــــــــــــــــــــــــــــ`)
+ـــــــــــــــــــــــــــــــــــــــــــــ
+📚︙ لينك جروبنا الرسمي 
+📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
     }
        break;;;;;
 
@@ -9854,7 +9409,9 @@ case '#13':{
   📙╢ ❬ #314 ❭ محاضرة 4
   📘╢ ❬ #315 ❭ محاضرة 5
   📙╜ ❬ #316 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ`)
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
       }
          break;;;;;
 
@@ -9873,7 +9430,9 @@ case '#13':{
   📙╢ ❬ #414 ❭ محاضرة 4
   📘╢ ❬ #415 ❭ محاضرة 5
   📙╜ ❬ #416 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ`)
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
       }
          break;;;;;
 
@@ -9892,7 +9451,9 @@ case '#15':{
   📙╢ ❬ #514 ❭ محاضرة 4
   📘╢ ❬ #515 ❭ محاضرة 5
   📙╜ ❬ #516 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ`)
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
       }
          break;;;;;
 
@@ -9912,7 +9473,9 @@ case '#16':{
   📙╢ ❬ #614 ❭ محاضرة 4
   📘╢ ❬ #615 ❭ محاضرة 5
   📙╜ ❬ #616 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ`)
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
       }
          break;;;;;
 
