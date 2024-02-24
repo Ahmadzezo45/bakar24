@@ -9739,7 +9739,7 @@ case 'الكتاب': {
     📚︙ لينك جروبنا الرسمي 
   📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
   -
-  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj `
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let buttonMessage = { 
 		document: fs.readFileSync('./pdf/at2024.pdf'),
 		fileName : `كتاب إدارة التسويق 2024`,
@@ -9757,7 +9757,7 @@ case 'الكتاب': {
     📚︙ لينك جروبنا الرسمي 
   📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
  -
-  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj  `
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja  `
 	let buttonMessageqw = { 
 		document: fs.readFileSync('./pdf/mchp12024.pdf'),
 		fileName : `كتاب محاسبة فصل 1`,
@@ -9775,7 +9775,7 @@ case 'الكتاب': {
     📚︙ لينك جروبنا الرسمي 
   📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
 -
-  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj `
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let buttonMessageer = { 
 		document: fs.readFileSync('./pdf/mchp22024.pdf'),
 		fileName : `كتاب محاسبة فصل 2`,
