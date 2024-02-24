@@ -9564,6 +9564,234 @@ BakarBotInc.sendMessage(m.chat, buttonMessage )
 }
 break        
 
+
+case 'تطبيق-بكار': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› تطبيق Bakar Community
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/Bakar.apk'),
+		fileName : `تطبيق Bakar Community`,
+		mimetype: `application/vnd.android.package-archive`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+case '#511': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 1 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/511.pdf'),
+		fileName : `محاضرة تجارة خارجية 1`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+
+ 
+case '#611': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 1 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/611.pdf'),
+		fileName : `محاضرة اقتصاد E 1`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+ 
+case '#112': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/112.pdf'),
+		fileName : `محاضرة رياضة 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+
+ 
+case '#212': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/212.pdf'),
+		fileName : `محاضرة احصاء 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+
+ 
+case '#312': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/312.pdf'),
+		fileName : `محاضرة التسويق 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+
+case '#412': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/412.pdf'),
+		fileName : `محاضرة محاسبة اموال 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break        
+
+
+case '#612': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/612.pdf'),
+		fileName : `محاضرة اقتصاد E 2`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break   
+
+
+ 
+case 'الكتب':
+case 'الكتاب': {
+	let xzxzx = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة كتاب إدارة التسويق 2024 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  -
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/at2024.pdf'),
+		fileName : `كتاب إدارة التسويق 2024`,
+		mimetype: `application/pdf`,             
+		caption: xzxzx,
+		footer: botname,
+
+}
+	let aqaqwss = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة المحاسبة الفصل الثاني 🤗
+    ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+ -
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj  `
+	let buttonMessageqw = { 
+		document: fs.readFileSync('./pdf/mchp12024.pdf'),
+		fileName : `كتاب محاسبة فصل 1`,
+		mimetype: `application/pdf`,             
+		caption: aqaqwss,
+		footer: botname,
+
+}
+	let rrdwssd = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة المحاسبة الفصل الثاني 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+-
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKj `
+	let buttonMessageer = { 
+		document: fs.readFileSync('./pdf/mchp22024.pdf'),
+		fileName : `كتاب محاسبة فصل 2`,
+		mimetype: `application/pdf`,             
+		caption: rrdwssd,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+BakarBotInc.sendMessage(m.chat, buttonMessageqw )
+BakarBotInc.sendMessage(m.chat, buttonMessageer )
+BakarBotInc.sendMessage(from, { react: { text: `📚`, key: m.key }}) 
+}
+break
+
+		
 ///////////---------------////////////
 
 
