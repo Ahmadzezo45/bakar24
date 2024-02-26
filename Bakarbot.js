@@ -3700,11 +3700,11 @@ case 'الترحيب': case 'xxwelcomexx': {
       if (!m.isGroup) return m.reply(mess.group)
       if (!isAdmins && !isCreator) return m.reply(mess.admin)
       if (!text) throw '◍ البوت [ فتح - قفل ] \n*◍> البوت فتح √*'
-      if (args[0] === "فتح") {
+      if (args[0] === "قفل") {
       if (db.chats[m.chat].mute) return m.reply(`◍ الجروب معطل من قبل √`)
       db.chats[m.chat].mute = true
       m.reply(`◍ تم تعطيل البوت لكل الاعضاء بنجاح √`)
-      } else if (args[0] === "قفل") {
+      } else if (args[0] === "فتح") {
       if (!db.chats[m.chat].mute) return m.reply(`◍ الجروب مفعل من قبل √`)
       db.chats[m.chat].mute = false
       m.reply(`◍ تم تفعيل البوت لكل الاعضاء بنجاح √`)
@@ -7560,7 +7560,7 @@ BakarBotInc.sendMessage(from, { image: rrgrtrgrfgr, caption: '*◍ اسرع وا
 break;;;;;;;
 
 
-case 'دول':  
+case 'الدول':  
 const sxsxsxaqa =[
 "إثيوبيا",
 "أذربيجان",
@@ -9784,6 +9784,63 @@ case 'الكتاب': {
 		footer: botname,
 
 }
+let xzexzx = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة كتاب تجارة خارجية جزء الجزء الاول 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  -
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
+	let xdegfuyhjyffqq = { 
+		document: fs.readFileSync('./pdf/tgarpr1.pdf'),
+		fileName : `كتاب تجارة خارجية جزء 1`,
+		mimetype: `application/pdf`,             
+		caption: xzexzx,
+		footer: botname,
+
+}
+	let aqaqwss = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة كتاب اقتصاد E جزء 1 🤗
+    ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+ -
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja  `
+	let xdegfuyhjyff = { 
+		document: fs.readFileSync('./pdf/cecepr1.pdf'),
+		fileName : `كتاب اقتصاد E 1`,
+		mimetype: `application/pdf`,             
+		caption: aqaqwss,
+		footer: botname,
+
+}
+	let rrdwssd = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة كتاب اقتصاد E 2 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+-
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
+	let zawoiut = { 
+		document: fs.readFileSync('./pdf/cecepr2.pdf'),
+		fileName : `كتاب اقتصاد E 2`,
+		mimetype: `application/pdf`,             
+		caption: rrdwssd,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, xdegfuyhjyffqq )
+BakarBotInc.sendMessage(m.chat, xdegfuyhjyff )
+BakarBotInc.sendMessage(m.chat, zawoiut )	
 BakarBotInc.sendMessage(m.chat, buttonMessage )
 BakarBotInc.sendMessage(m.chat, buttonMessageqw )
 BakarBotInc.sendMessage(m.chat, buttonMessageer )
