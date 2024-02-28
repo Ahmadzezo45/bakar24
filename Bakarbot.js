@@ -9838,9 +9838,28 @@ let xzexzx = `ـــــــــــــــــــــــــــــــــ
 		footer: botname,
 
 }
+	let rrdaqswssqzddsd = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة كتاب رياضيات 2024 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ 
+    📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+-
+  📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
+	let zawoiutxsaasdxa = { 
+		document: fs.readFileSync('./pdf/rrya2024.pdf'),
+		fileName : `كتاب الرياضيات 2024`,
+		mimetype: `application/pdf`,             
+		caption: rrdaqswssqzddsd,
+		footer: botname,
+
+}	
 BakarBotInc.sendMessage(m.chat, xdegfuyhjyffqq )
 BakarBotInc.sendMessage(m.chat, xdegfuyhjyff )
 BakarBotInc.sendMessage(m.chat, zawoiut )	
+BakarBotInc.sendMessage(m.chat, zawoiutxsaasdxa )	
 BakarBotInc.sendMessage(m.chat, buttonMessage )
 BakarBotInc.sendMessage(m.chat, buttonMessageqw )
 BakarBotInc.sendMessage(m.chat, buttonMessageer )
