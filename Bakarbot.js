@@ -4565,7 +4565,7 @@ if (isBanChat) return reply(mess.bangc)
                  break;;;;;;;    
 
                  case 'المصحف': case 'مصحف': {
-                  let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+                  let xeonweeqs = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› القرآن كامل في pdf  .. صدقة جاارية
@@ -4576,7 +4576,7 @@ if (isBanChat) return reply(mess.bangc)
                     document: fs.readFileSync('./Bakarbot/Quran.pdf'),
                     fileName : `Quran`,
                     mimetype: `application/pdf`,             
-                    caption: xeonwee,
+                    caption: xeonweeqs,
                     footer: botname,             
                 
                 }
@@ -9483,7 +9483,7 @@ case 'محاضرات-رياضيات': {
     footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweeery = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 2 🤗
@@ -9493,7 +9493,7 @@ let buttonMessage2 = {
   document: fs.readFileSync('./pdf/112.pdf'),
   fileName : `محاضرة رياضة 2`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweeery,
   footer: botname,
 
 }
