@@ -9497,7 +9497,7 @@ let buttonMessage2 = {
   footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let aqxeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 3 🤗
@@ -9507,7 +9507,7 @@ let buttonMessage3 = {
   document: fs.readFileSync('./pdf/113.pdf'),
   fileName : `محاضرة رياضة 3`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: aqxeonwee,
   footer: botname,
 
 }
@@ -9618,7 +9618,7 @@ case 'محاضرات-احصاء': {
     footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweezx = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 2 🤗
@@ -9628,11 +9628,11 @@ let buttonMessage2 = {
   document: fs.readFileSync('./pdf/212.pdf'),
   fileName : `محاضرة احصاء 2`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweezx,
   footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweecv = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 3 🤗
@@ -9642,7 +9642,7 @@ let buttonMessage3 = {
   document: fs.readFileSync('./pdf/213.pdf'),
   fileName : `محاضرة احصاء 3`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweecv,
   footer: botname,
 
 }
@@ -9753,7 +9753,7 @@ case 'محاضرات-تسويق': {
 		footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweecv = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 2 🤗
@@ -9763,11 +9763,11 @@ let buttonMessage2 = {
   document: fs.readFileSync('./pdf/312.pdf'),
   fileName : `محاضرة التسويق 2`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweecv,
   footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweezx = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 3 🤗
@@ -9777,7 +9777,7 @@ let buttonMessage3 = {
   document: fs.readFileSync('./pdf/313.pdf'),
   fileName : `محاضرة التسويق 3`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweezx,
   footer: botname,
 
 }
@@ -9878,7 +9878,7 @@ break
             footer: botname,
         
         }
-        let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        let xeonweexz = `ـــــــــــــــــــــــــــــــــــــــــــــ
         -›   ${ucapanWaktu}
         -›  نورت يا ${pushname} 
         -› خد يغالي/ة  محاضرة 2 🤗
@@ -9888,11 +9888,11 @@ break
           document: fs.readFileSync('./pdf/412.pdf'),
           fileName : `محاضرة محاسبة اموال 2`,
           mimetype: `application/pdf`,             
-          caption: xeonwee,
+          caption: xeonweexz,
           footer: botname,
       
       }
-      let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+      let xeonweebv = `ـــــــــــــــــــــــــــــــــــــــــــــ
       -›   ${ucapanWaktu}
       -›  نورت يا ${pushname} 
       -› خد يغالي/ة  محاضرة 3 🤗
@@ -9902,7 +9902,7 @@ break
         document: fs.readFileSync('./pdf/413.pdf'),
         fileName : `محاضرة محاسبة اموال 3`,
         mimetype: `application/pdf`,             
-        caption: xeonwee,
+        caption: xeonweebv,
         footer: botname,
     
     }
@@ -9986,7 +9986,7 @@ case '#15':{
             footer: botname,
         
         }
-        let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        let xeonweewe = `ـــــــــــــــــــــــــــــــــــــــــــــ
         -›   ${ucapanWaktu}
         -›  نورت يا ${pushname} 
         -› خد يغالي/ة  محاضرة 2 🤗
@@ -9996,7 +9996,7 @@ case '#15':{
           document: fs.readFileSync('./pdf/512.pdf'),
           fileName : `محاضرة تجارة خارجية 2`,
           mimetype: `application/pdf`,             
-          caption: xeonwee,
+          caption: xeonweewe,
           footer: botname,
       
       }        
@@ -10100,7 +10100,7 @@ case 'محاضرات-اقتصاد': {
     footer: botname,
 
 }
-let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+let xeonweecx = `ـــــــــــــــــــــــــــــــــــــــــــــ
 -›   ${ucapanWaktu}
 -›  نورت يا ${pushname} 
 -› خد يغالي/ة  محاضرة 2 🤗
@@ -10110,7 +10110,7 @@ let buttonMessage2 = {
   document: fs.readFileSync('./pdf/612.pdf'),
   fileName : `محاضرة اقتصاد E 2`,
   mimetype: `application/pdf`,             
-  caption: xeonwee,
+  caption: xeonweecx,
   footer: botname,
 
 }
