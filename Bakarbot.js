@@ -9910,7 +9910,7 @@ break
           BakarBotInc.sendMessage(m.chat, buttonMessage2 )
           BakarBotInc.sendMessage(m.chat, buttonMessage3 )
           }
-          
+        break;;;;;
           
 ///--=--------------------////
 // تجارة خارجية///
