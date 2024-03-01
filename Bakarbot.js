@@ -9346,12 +9346,14 @@ break
 
 
 
+
 /////  مواد  تانيه تجارة 2024 ترم تاني /////
-case 'مواد': case 'المواد': case 'منهج': case 'المنهج': case 'بكارمواد': case 'بكارمنهج':{
+case 'محاضرة': case 'محاضرات': case 'مواد': case 'المواد': case 'منهج': case 'المنهج': case 'بكارمواد': case 'بكارمنهج':{
 
   lido7x = `🌟︙${ucapanWaktu} 
   👋🏻︙نورت يا ${pushname} 
   📚︙قايمة المواد 
+  🎦︙لمعرفة استخدام البوت شاهد الفيديو ⬆️
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📕╖ ❬ #11 ❭ رياضيات التمويل والاستثمار
   📗╢ ❬ #12 ❭ إحصاء تطبيقي
@@ -9365,11 +9367,10 @@ case 'مواد': case 'المواد': case 'منهج': case 'المنهج': case
   `
   
   let buttonMessage = {
-  video: fs.readFileSync('./Bakarbot/botbakar.mp4'), gifPlayback: true,
+  video: fs.readFileSync('./Bakarbot/howuse.mp4'), gifPlayback: true,
   jpegThumbnail: fs.readFileSync("Bakarbot/botbakar.png"),
   caption: lido7x,
   footer: `~بوت بكار 🐼 Bakar Bot`,
-  
   headerType: 4,
   contextInfo:{externalAdReply:{
   title: `بوت بكار 🐼 Bakar Bot`,
@@ -9397,6 +9398,8 @@ case '#11':{
 📙╢ ❬ #114 ❭ محاضرة 4
 📘╢ ❬ #115 ❭ محاضرة 5
 📙╜ ❬ #116 ❭ محاضرة 6
+📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-رياضيات
 ـــــــــــــــــــــــــــــــــــــــــــــ
 📚︙ لينك جروبنا الرسمي 
 📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
@@ -9404,257 +9407,27 @@ case '#11':{
      break;;;;;
 
 
-/////----------------///
-//// إحصاء تطبيقي /////
-case '#12': {     
-  reply(`
-🌟︙${ucapanWaktu} 
-👋🏻︙نورت يا ${pushname} 
-📚︙مادة إحصاء تطبيقي
-ـــــــــــــــــــــــــــــــــــــــــــــ
-📕╖ ❬ #211 ❭ محاضرة 1
-📗╢ ❬ #212 ❭ محاضرة 2
-📘╢ ❬ #213 ❭ محاضرة 3
-📙╢ ❬ #214 ❭ محاضرة 4
-📘╢ ❬ #215 ❭ محاضرة 5
-📙╜ ❬ #216 ❭ محاضرة 6
-ـــــــــــــــــــــــــــــــــــــــــــــ
-📚︙ لينك جروبنا الرسمي 
-📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+ 
+     case '#111': {
+      let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+      -›   ${ucapanWaktu}
+      -›  نورت يا ${pushname} 
+      -› خد يغالي/ة  محاضرة الاولي 🤗
+      ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+      ـــــــــــــــــــــــــــــــــــــــــــــ `
+      let buttonMessage = { 
+        document: fs.readFileSync('./pdf/111.pdf'),
+        fileName : `محاضرة رياضة 1`,
+        mimetype: `application/pdf`,             
+        caption: xeonwee,
+        footer: botname,
+    
     }
-       break;;;;;
+    BakarBotInc.sendMessage(m.chat, buttonMessage )
+    }
+    break
 
-
-////  --------------////
-///// إدارة التسويق ////////
-case '#13':{     
-  reply(`
-  🌟︙${ucapanWaktu} 
-  👋🏻︙نورت يا ${pushname} 
-  📚︙مادة إدارة التسويق
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📕╖ ❬ #311 ❭ محاضرة 1
-  📗╢ ❬ #312 ❭ محاضرة 2
-  📘╢ ❬ #313 ❭ محاضرة 3
-  📙╢ ❬ #314 ❭ محاضرة 4
-  📘╢ ❬ #315 ❭ محاضرة 5
-  📙╜ ❬ #316 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
-      }
-         break;;;;;
-
- //// ---------------------------///
- // محاسبة شركات اموال ////
- 
- case '#14':{     
-  reply(`
-  🌟︙${ucapanWaktu} 
-  👋🏻︙نورت يا ${pushname} 
-  📚︙مادة محاسبة شركات اموال
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📕╖ ❬ #411 ❭ محاضرة 1
-  📗╢ ❬ #412 ❭ محاضرة 2
-  📘╢ ❬ #413 ❭ محاضرة 3
-  📙╢ ❬ #414 ❭ محاضرة 4
-  📘╢ ❬ #415 ❭ محاضرة 5
-  📙╜ ❬ #416 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
-      }
-         break;;;;;
-
-
-///--=--------------------////
-// تجارة خارجية///
-case '#15':{     
-  reply(`
-  🌟︙${ucapanWaktu} 
-  👋🏻︙نورت يا ${pushname} 
-  📚︙مادة تجارة خارجية
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📕╖ ❬ #511 ❭ محاضرة 1
-  📗╢ ❬ #512 ❭ محاضرة 2
-  📘╢ ❬ #513 ❭ محاضرة 3
-  📙╢ ❬ #514 ❭ محاضرة 4
-  📘╢ ❬ #515 ❭ محاضرة 5
-  📙╜ ❬ #516 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
-      }
-         break;;;;;
-
-
-////--------------//
-//// دراسات اقتصادية بلغة E ///////
-
-case '#16':{     
-  reply(`
-  🌟︙${ucapanWaktu} 
-  👋🏻︙نورت يا ${pushname} 
-  📚︙مادة دراسات اقتصادية بلغة E
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📕╖ ❬ #611 ❭ محاضرة 1
-  📗╢ ❬ #612 ❭ محاضرة 2
-  📘╢ ❬ #613 ❭ محاضرة 3
-  📙╢ ❬ #614 ❭ محاضرة 4
-  📘╢ ❬ #615 ❭ محاضرة 5
-  📙╜ ❬ #616 ❭ محاضرة 6
-  ـــــــــــــــــــــــــــــــــــــــــــــ
-  📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
-      }
-         break;;;;;
-
-/////------------------------------------///////
- 
-
- 
-case '#111': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة الاولي 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/111.pdf'),
-		fileName : `محاضرة رياضة 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
-
- 
-case '#211': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة الاولي 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/211.pdf'),
-		fileName : `محاضرة احصاء 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
-
- 
-case '#311': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة الاولي 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/311.pdf'),
-		fileName : `محاضرة التسويق 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
-
-case '#411': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة الاولي 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/411.pdf'),
-		fileName : `محاضرة محاسبة اموال 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break        
-
-
-case 'تطبيق-بكار': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› تطبيق Bakar Community
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/Bakar.apk'),
-		fileName : `تطبيق Bakar Community`,
-		mimetype: `application/vnd.android.package-archive`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
-case '#511': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة 1 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/511.pdf'),
-		fileName : `محاضرة تجارة خارجية 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
-
- 
-case '#611': {
-	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
-	-›   ${ucapanWaktu}
-	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة 1 🤗
-	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
-	ـــــــــــــــــــــــــــــــــــــــــــــ `
-	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/611.pdf'),
-		fileName : `محاضرة اقتصاد E 1`,
-		mimetype: `application/pdf`,             
-		caption: xeonwee,
-		footer: botname,
-
-}
-BakarBotInc.sendMessage(m.chat, buttonMessage )
-}
-break
-
- 
+     
 case '#112': {
 	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
 	-›   ${ucapanWaktu}
@@ -9674,7 +9447,120 @@ BakarBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
 
+ 
+case '#113': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة 3 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/113.pdf'),
+		fileName : `محاضرة رياضة 3`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
 
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+
+ 
+case 'محاضرات-رياضيات': {
+  let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+  -›   ${ucapanWaktu}
+  -›  نورت يا ${pushname} 
+  -› خد يغالي/ة  محاضرة الاولي 🤗
+  ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+  ـــــــــــــــــــــــــــــــــــــــــــــ `
+  let buttonMessage1 = { 
+    document: fs.readFileSync('./pdf/111.pdf'),
+    fileName : `محاضرة رياضة 1`,
+    mimetype: `application/pdf`,             
+    caption: xeonwee,
+    footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 2 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage2 = { 
+  document: fs.readFileSync('./pdf/112.pdf'),
+  fileName : `محاضرة رياضة 2`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 3 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage3 = { 
+  document: fs.readFileSync('./pdf/113.pdf'),
+  fileName : `محاضرة رياضة 3`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+BakarBotInc.sendMessage(m.chat, buttonMessage3 )
+}
+break
+
+/////----------------///
+//// إحصاء تطبيقي /////
+case '#12': {     
+  reply(`
+🌟︙${ucapanWaktu} 
+👋🏻︙نورت يا ${pushname} 
+📚︙مادة إحصاء تطبيقي
+ـــــــــــــــــــــــــــــــــــــــــــــ
+📕╖ ❬ #211 ❭ محاضرة 1
+📗╢ ❬ #212 ❭ محاضرة 2
+📘╢ ❬ #213 ❭ محاضرة 3
+📙╢ ❬ #214 ❭ محاضرة 4
+📘╢ ❬ #215 ❭ محاضرة 5
+📙╜ ❬ #216 ❭ محاضرة 6
+📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-احصاء
+ـــــــــــــــــــــــــــــــــــــــــــــ
+📚︙ لينك جروبنا الرسمي 
+📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+    }
+       break;;;;;
+
+
+ 
+       case '#211': {
+       let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        -›   ${ucapanWaktu}
+        -›  نورت يا ${pushname} 
+        -› خد يغالي/ة  محاضرة الاولي 🤗
+        ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+        ـــــــــــــــــــــــــــــــــــــــــــــ `
+        let buttonMessage = { 
+          document: fs.readFileSync('./pdf/211.pdf'),
+          fileName : `محاضرة احصاء 1`,
+          mimetype: `application/pdf`,             
+          caption: xeonwee,
+          footer: botname,
+      
+      } 
+      BakarBotInc.sendMessage(m.chat, buttonMessage )
+      }
+      break
+
+      
  
 case '#212': {
 	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
@@ -9695,6 +9581,120 @@ BakarBotInc.sendMessage(m.chat, buttonMessage )
 }
 break
 
+ 
+      case '#213': {
+        let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        -›   ${ucapanWaktu}
+        -›  نورت يا ${pushname} 
+        -› خد يغالي/ة  محاضرة 3 🤗
+        ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+        ـــــــــــــــــــــــــــــــــــــــــــــ `
+        let buttonMessage = { 
+          document: fs.readFileSync('./pdf/213.pdf'),
+          fileName : `محاضرة احصاء 3`,
+          mimetype: `application/pdf`,             
+          caption: xeonwee,
+          footer: botname,
+      
+      }
+      BakarBotInc.sendMessage(m.chat, buttonMessage )
+      }
+      break
+
+      
+ 
+case 'محاضرات-احصاء': {
+  let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+  -›   ${ucapanWaktu}
+  -›  نورت يا ${pushname} 
+  -› خد يغالي/ة  محاضرة الاولي 🤗
+  ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+  ـــــــــــــــــــــــــــــــــــــــــــــ `
+  let buttonMessage1 = { 
+    document: fs.readFileSync('./pdf/211.pdf'),
+    fileName : `محاضرة احصاء 1`,
+    mimetype: `application/pdf`,             
+    caption: xeonwee,
+    footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 2 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage2 = { 
+  document: fs.readFileSync('./pdf/212.pdf'),
+  fileName : `محاضرة احصاء 2`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 3 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage3 = { 
+  document: fs.readFileSync('./pdf/213.pdf'),
+  fileName : `محاضرة احصاء 3`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+BakarBotInc.sendMessage(m.chat, buttonMessage3 )
+}
+break
+
+
+////  --------------////
+///// إدارة التسويق ////////
+case '#13':{     
+  reply(`
+  🌟︙${ucapanWaktu} 
+  👋🏻︙نورت يا ${pushname} 
+  📚︙مادة إدارة التسويق
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📕╖ ❬ #311 ❭ محاضرة 1
+  📗╢ ❬ #312 ❭ محاضرة 2
+  📘╢ ❬ #313 ❭ محاضرة 3
+  📙╢ ❬ #314 ❭ محاضرة 4
+  📘╢ ❬ #315 ❭ محاضرة 5
+  📙╜ ❬ #316 ❭ محاضرة 6
+📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-تسويق
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
+      }
+         break;;;;;
+  
+ 
+case '#311': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› خد يغالي/ة  محاضرة الاولي 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/311.pdf'),
+		fileName : `محاضرة التسويق 1`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
+       
 
  
 case '#312': {
@@ -9717,16 +9717,17 @@ BakarBotInc.sendMessage(m.chat, buttonMessage )
 break
 
 
-case '#412': {
+ 
+case '#313': {
 	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
 	-›   ${ucapanWaktu}
 	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة 2 🤗
+	-› خد يغالي/ة  محاضرة 3 🤗
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ `
 	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/412.pdf'),
-		fileName : `محاضرة محاسبة اموال 2`,
+		document: fs.readFileSync('./pdf/313.pdf'),
+		fileName : `محاضرة التسويق 3`,
 		mimetype: `application/pdf`,             
 		caption: xeonwee,
 		footer: botname,
@@ -9734,27 +9735,432 @@ case '#412': {
 }
 BakarBotInc.sendMessage(m.chat, buttonMessage )
 }
-break        
+break
 
-
-case '#612': {
+ 
+case 'محاضرات-تسويق': {
 	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
 	-›   ${ucapanWaktu}
 	-›  نورت يا ${pushname} 
-	-› خد يغالي/ة  محاضرة 2 🤗
+	-› خد يغالي/ة  محاضرة الاولي 🤗
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage1 = { 
+		document: fs.readFileSync('./pdf/311.pdf'),
+		fileName : `محاضرة التسويق 1`,
+		mimetype: `application/pdf`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 2 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage2 = { 
+  document: fs.readFileSync('./pdf/312.pdf'),
+  fileName : `محاضرة التسويق 2`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 3 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage3 = { 
+  document: fs.readFileSync('./pdf/313.pdf'),
+  fileName : `محاضرة التسويق 3`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+BakarBotInc.sendMessage(m.chat, buttonMessage3 )
+}
+break
+ //// ---------------------------///
+ // محاسبة شركات اموال ////
+ 
+ case '#14':{     
+  reply(`
+  🌟︙${ucapanWaktu} 
+  👋🏻︙نورت يا ${pushname} 
+  📚︙مادة محاسبة شركات اموال
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📕╖ ❬ #411 ❭ محاضرة 1
+  📗╢ ❬ #412 ❭ محاضرة 2
+  📘╢ ❬ #413 ❭ محاضرة 3
+  📙╢ ❬ #414 ❭ محاضرة 4
+  📘╢ ❬ #415 ❭ محاضرة 5
+  📙╜ ❬ #416 ❭ محاضرة 6
+  📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-شركات
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+      }
+         break;;;;;
+
+         case '#411': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة الاولي 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/411.pdf'),
+            fileName : `محاضرة محاسبة اموال 1`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break      
+        case '#412': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 2 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/412.pdf'),
+            fileName : `محاضرة محاسبة اموال 2`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break     
+        case '#413': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 3 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/413.pdf'),
+            fileName : `محاضرة محاسبة اموال 3`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break     
+         case 'محاضرات-شركات': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة الاولي 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage1 = { 
+            document: fs.readFileSync('./pdf/411.pdf'),
+            fileName : `محاضرة محاسبة اموال 1`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        -›   ${ucapanWaktu}
+        -›  نورت يا ${pushname} 
+        -› خد يغالي/ة  محاضرة 2 🤗
+        ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+        ـــــــــــــــــــــــــــــــــــــــــــــ `
+        let buttonMessage2 = { 
+          document: fs.readFileSync('./pdf/412.pdf'),
+          fileName : `محاضرة محاسبة اموال 2`,
+          mimetype: `application/pdf`,             
+          caption: xeonwee,
+          footer: botname,
+      
+      }
+      let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+      -›   ${ucapanWaktu}
+      -›  نورت يا ${pushname} 
+      -› خد يغالي/ة  محاضرة 3 🤗
+      ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+      ـــــــــــــــــــــــــــــــــــــــــــــ `
+      let buttonMessage3 = { 
+        document: fs.readFileSync('./pdf/413.pdf'),
+        fileName : `محاضرة محاسبة اموال 3`,
+        mimetype: `application/pdf`,             
+        caption: xeonwee,
+        footer: botname,
+    
+    }
+          BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+          BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+          BakarBotInc.sendMessage(m.chat, buttonMessage3 )
+          }
+          
+          
+///--=--------------------////
+// تجارة خارجية///
+case '#15':{     
+  reply(`
+  🌟︙${ucapanWaktu} 
+  👋🏻︙نورت يا ${pushname} 
+  📚︙مادة تجارة خارجية
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📕╖ ❬ #511 ❭ محاضرة 1
+  📗╢ ❬ #512 ❭ محاضرة 2
+  📘╢ ❬ #513 ❭ محاضرة 3
+  📙╢ ❬ #514 ❭ محاضرة 4
+  📘╢ ❬ #515 ❭ محاضرة 5
+  📙╜ ❬ #516 ❭ محاضرة 6
+  📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-تجارة
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+      }
+         break;;;;;
+
+         case '#511': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 1 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/511.pdf'),
+            fileName : `محاضرة تجارة خارجية 1`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break
+        case '#512': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 2 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/512.pdf'),
+            fileName : `محاضرة تجارة خارجية 2`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break
+ 
+         case 'محاضرات-تجارة': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 1 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage1 = { 
+            document: fs.readFileSync('./pdf/511.pdf'),
+            fileName : `محاضرة تجارة خارجية 1`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+        -›   ${ucapanWaktu}
+        -›  نورت يا ${pushname} 
+        -› خد يغالي/ة  محاضرة 2 🤗
+        ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+        ـــــــــــــــــــــــــــــــــــــــــــــ `
+        let buttonMessage2 = { 
+          document: fs.readFileSync('./pdf/512.pdf'),
+          fileName : `محاضرة تجارة خارجية 2`,
+          mimetype: `application/pdf`,             
+          caption: xeonwee,
+          footer: botname,
+      
+      }        
+          BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+          BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+          }
+          break
+
+////--------------//
+//// دراسات اقتصادية بلغة E ///////
+
+case '#16':{     
+  reply(`
+  🌟︙${ucapanWaktu} 
+  👋🏻︙نورت يا ${pushname} 
+  📚︙مادة دراسات اقتصادية بلغة E
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📕╖ ❬ #611 ❭ محاضرة 1
+  📗╢ ❬ #612 ❭ محاضرة 2
+  📘╢ ❬ #613 ❭ محاضرة 3
+  📙╢ ❬ #614 ❭ محاضرة 4
+  📘╢ ❬ #615 ❭ محاضرة 5
+  📙╜ ❬ #616 ❭ محاضرة 6
+  📚︙لو عايز تحمل كل محاضرات مرة واحدة 
+📚︙ اكتب محاضرات-اقتصاد
+  ـــــــــــــــــــــــــــــــــــــــــــــ
+  📚︙ لينك جروبنا الرسمي 
+  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+      }
+         break;;;;;
+ 
+         case '#611': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 1 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/611.pdf'),
+            fileName : `محاضرة اقتصاد E 1`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break
+        
+        case '#612': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 2 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/612.pdf'),
+            fileName : `محاضرة اقتصاد E 2`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break   
+        
+        case '#613': {
+          let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+          -›   ${ucapanWaktu}
+          -›  نورت يا ${pushname} 
+          -› خد يغالي/ة  محاضرة 3 🤗
+          ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+          ـــــــــــــــــــــــــــــــــــــــــــــ `
+          let buttonMessage = { 
+            document: fs.readFileSync('./pdf/613.pdf'),
+            fileName : `محاضرة اقتصاد E 3`,
+            mimetype: `application/pdf`,             
+            caption: xeonwee,
+            footer: botname,
+        
+        }
+        BakarBotInc.sendMessage(m.chat, buttonMessage )
+        }
+        break          
+  
+case 'محاضرات-اقتصاد': {
+  let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+  -›   ${ucapanWaktu}
+  -›  نورت يا ${pushname} 
+  -› خد يغالي/ة  محاضرة 1 🤗
+  ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+  ـــــــــــــــــــــــــــــــــــــــــــــ `
+  let buttonMessage1 = { 
+    document: fs.readFileSync('./pdf/611.pdf'),
+    fileName : `محاضرة اقتصاد E 1`,
+    mimetype: `application/pdf`,             
+    caption: xeonwee,
+    footer: botname,
+
+}
+let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+-›   ${ucapanWaktu}
+-›  نورت يا ${pushname} 
+-› خد يغالي/ة  محاضرة 2 🤗
+♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+ـــــــــــــــــــــــــــــــــــــــــــــ `
+let buttonMessage2 = { 
+  document: fs.readFileSync('./pdf/612.pdf'),
+  fileName : `محاضرة اقتصاد E 2`,
+  mimetype: `application/pdf`,             
+  caption: xeonwee,
+  footer: botname,
+
+}
+
+  BakarBotInc.sendMessage(m.chat, buttonMessage1 )
+  BakarBotInc.sendMessage(m.chat, buttonMessage2 )
+  }
+  break        
+/////------------------------------------///////
+
+case 'تطبيق-بكار': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› تطبيق Bakar Community
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ `
 	let buttonMessage = { 
-		document: fs.readFileSync('./pdf/612.pdf'),
-		fileName : `محاضرة اقتصاد E 2`,
-		mimetype: `application/pdf`,             
+		document: fs.readFileSync('./pdf/Bakar.apk'),
+		fileName : `تطبيق Bakar Community`,
+		mimetype: `application/vnd.android.package-archive`,             
 		caption: xeonwee,
 		footer: botname,
 
 }
 BakarBotInc.sendMessage(m.chat, buttonMessage )
 }
-break   
+break
+
+case 'تطبيق-تسجيل': {
+	let xeonwee = `ـــــــــــــــــــــــــــــــــــــــــــــ
+	-›   ${ucapanWaktu}
+	-›  نورت يا ${pushname} 
+	-› تطبيق cogi
+  -› من افضل تطبيقات اللي هتساعدك حرفيا  ده لو انت شخص بتحضر محاضرات
+  -› تطبيق  تقدر من خلاله تسجل محاضراتك وتشاركها مع صحابك عن طريق لينك وكمان تقدر تصور صور من محاضراتك وكمان فيه سحابة تخزين تقدر من خلالها تحفظ محاضراتك عن طريقة انشاء حساب ف تطبيق
+  -› تطبيق حرفيا جامد جدا جدا
+	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
+	ـــــــــــــــــــــــــــــــــــــــــــــ `
+	let buttonMessage = { 
+		document: fs.readFileSync('./pdf/roc2024.apk'),
+		fileName : `تطبيق تسجيل محاضرات`,
+		mimetype: `application/vnd.android.package-archive`,             
+		caption: xeonwee,
+		footer: botname,
+
+}
+BakarBotInc.sendMessage(m.chat, buttonMessage )
+}
+break
 
 
   
