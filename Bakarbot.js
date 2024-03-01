@@ -2136,23 +2136,6 @@ await BakarBotInc.sendButtonText(m.chat, button, `*▊▊▊HORNY MOOD▊▊▊*
 }
 break;;;;;;;;;;
 
- case 'translate': case 'terjemahan': case 'tr': {
-   tes = await fetchJson (`https://megayaa.herokuapp.com/api/translate?to=en&kata=${args.join(" ")}`)
-   Infoo = tes.info
-   Detek = tes.translate
-   reply(`🌐Translate : ${Detek}\n`)
-   }
-   break;;;;;;;;;;
-  /* case 'translate': case 'terjemahan': case 'tr': {
-    tes = await fetchJson (`https://soccer.sportmonks.com/api/v2.0/livescores&api_token=y5TQaQFczQuU3awKmWEi1eD1Sy3U6WuTkNZAw2fdQEtHDRwgJpkCZVUf9DYb`)
-    Infoo = tes.info
-    Detek = tes.translate
-    reply(`🌐Translate : ${Detek}\n`)
-    }
-*/
-break;;;;;;;;;;
-
- break;;;;;;;;;;
  case 'git': case 'gitclone':
 reply(mess.wait)
  let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
