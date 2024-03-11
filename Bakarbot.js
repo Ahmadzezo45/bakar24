@@ -8453,44 +8453,58 @@ case 'tr': case 'translate': {
 
 
 
+case 'تفعيل-الاذان': case 'الاذان':            
+if (!m.isGroup) throw mess.group
+if (!isCreator) return m.reply(mess.owner)	
+let liodoooe = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
+let liodooow = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
 
+let Azanapiz = liodoooe[Math.floor(Math.random() * liodoooe.length)]
+let Azanapiix = liodooow[Math.floor(Math.random() * liodooow.length)]
+let StickFAGR = fs.readFileSync('./AZ/FAGR.webp')
+let StickHOAR = fs.readFileSync('./AZ/HOAR.webp')
+let StickAL3SR = fs.readFileSync('./AZ/AL3SR.webp')
+let StickM3RB = fs.readFileSync('./AZ/M3RB.webp')
+let Stick3SHA = fs.readFileSync('./AZ/3SHA.webp')
+lidoo_dev = await getBuffer(`https://github.com/b3390812/Azan-API/raw/master/Azan/${Azanapiz}.mp3`)
+lidoo7xdev = await getBuffer(`https://github.com/b3390812/Azan-API/raw/master/Azan/${Azanapiix}.mp3`)
+await BakarBotInc.sendMessage(m.chat, {text:"تم تفعيل الاذان بنجاح ✨♥️"})
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان العشاء بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: Stick3SHA })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(33960000)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان الفجر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickFAGR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo7xdev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(26520000)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان الظهر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickHOAR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(12120000)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان العصر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickAL3SR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo7xdev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(9120000)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان المغرب بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickM3RB })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(1200000)
+reply("- تم انتهاء تفعيل تقائي - يرجي تفعليه في صلاة العشاء ")
+break;;;;;;;;
 
 
 	
- case 'تفعيل-الاذان': case 'ين':            
- if (!m.isGroup) throw mess.group
- await loading()
- let liodooo = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
-let Azanapi = liodooo[Math.floor(Math.random() * liodooo.length)]
-lidoo_dev = await getBuffer(`https://github.com/b3390812/Azan-API/raw/master/Azan/${Azanapi}.mp3`)
-await BakarBotInc.sendMessage(m.chat, {text:"تم تفعيل الاذان"})
-
-await sleep(60)
-await BakarBotInc.sendMessage(m.chat, {text:"  test 1"})
-await sleep(60)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-await sleep(60)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-await sleep(60)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-await sleep(120000)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-await BakarBotInc.sendMessage(m.chat, {text:"2"})
-await sleep(180000)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-await BakarBotInc.sendMessage(m.chat, {text:"3"})
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-await sleep(30)
-await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-
-reply("d")
-break;;;;;;;;
 
 
 
