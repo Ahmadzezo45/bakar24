@@ -8502,6 +8502,60 @@ break;;;;;;;;
 	
 
 
+case 'اذان1':            
+if (!m.isGroup) throw mess.group
+if (!isCreator) return m.reply(mess.owner)	
+const azain7x = axios.get(`https://www.ava-tar.online/api/mawaqet/get?jack=cairo`)
+const lakido7x = await azain7x
+                        // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
+  const timeaz = lakido7x.data.ms
+let liodoooe = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
+let liodooow = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
+
+let Azanapiz = liodoooe[Math.floor(Math.random() * liodoooe.length)]
+let Azanapiix = liodooow[Math.floor(Math.random() * liodooow.length)]
+let StickFAGR = fs.readFileSync('./AZ/FAGR.webp')
+let StickHOAR = fs.readFileSync('./AZ/HOAR.webp')
+let StickAL3SR = fs.readFileSync('./AZ/AL3SR.webp')
+let StickM3RB = fs.readFileSync('./AZ/M3RB.webp')
+let Stickrm = fs.readFileSync('./AZ/Stickrm.webp')
+let Stick3SHA = fs.readFileSync('./AZ/3SHA.webp')
+lidoo_dev = await getBuffer(`https://github.com/b3390812/Azan-API/raw/master/Azan/${Azanapiz}.mp3`)
+lidoo7xdev = await getBuffer(`https://github.com/b3390812/Azan-API/raw/master/Azan/${Azanapiix}.mp3`)
+await BakarBotInc.sendMessage(m.chat, {text:"تم تفعيل الاذان بنجاح ✨♥️"})
+await sleep(timeaz)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان الفجر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickFAGR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo7xdev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(timeaz)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان الظهر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickHOAR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(timeaz)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان العصر بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: StickAL3SR })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo7xdev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(timeaz)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان المغرب بتوقيت القاهرة ♥️🌿\nصوماً مقبولاً وإفطاراً شهياً ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: Stickrm })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(timeaz)
+await BakarBotInc.sendMessage(m.chat, {text:"حان الان موعد اذان العشاء بتوقيت القاهرة ♥️🌿"})
+await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: Stick3SHA })
+await sleep(5000)
+await BakarBotInc.sendMessage(m.chat, { audio: lidoo_dev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
+await sleep(3600000)
+reply(".")
+break;;;;;;;;
 
 
 
