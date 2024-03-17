@@ -8453,7 +8453,7 @@ case 'tr': case 'translate': {
 
 
 
-case 'تفعيل-الاذان': case 'الاذان':            
+*/*case 'تفعيل-الاذان': case 'الاذان':            
 if (!m.isGroup) throw mess.group
 if (!isCreator) return m.reply(mess.owner)	
 let liodoooe = [`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`,`Azan1`,`Azan2`,`Azan3`,`Azan4`,`Azan5`,`Azan6`]
@@ -8496,7 +8496,9 @@ await sleep(5000)
 await BakarBotInc.sendMessage(m.chat, { audio: lidoo7xdev, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
 await sleep(3600000)
 reply(".")
-break;;;;;;;;
+break;;;;;;;;*/
+
+
 
 
 	
