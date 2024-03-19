@@ -8451,6 +8451,65 @@ case 'tr': case 'translate': {
     break
 
 
+//// كروت الكلمة الحلوة ////
+
+   case 'كارت': case 'كرت': case 'كروت': {
+      if (isBan) return reply(mess.banned)	 			
+      if (isBanChat) return reply(mess.bangc)
+      if (!isAdmins && !isCreator) throw mess.admin
+      try {
+    let json = await fetchJson(`https://cards-ramadan.vercel.app/vf?num=01557235488&pas=Molido@656434`)
+      for (let x = 0; x < 60; x++) {
+       let pat = json[1]["pattern"][x]["action"];
+       let price = pat[0]["characteristics"][1]["value"];
+       let shn = pat[0]["characteristics"][2]["value"];
+       let cart = pat[0]["characteristics"][3]["value"];
+    await BakarBotInc.sendMessage(from, { image: { url: `https://telegra.ph//file/b272465926ee0723224ea.jpg`}, caption: "*كارت* " + price + " *وحده فودافون.. ❤️✅* " + '\n*◍» الكارت :* '+ cart + "\n" + '*◍» الشحنات المتاحة للكارت :* '+ shn + '\n' + '\n*◍» للشحن :* ' + '\n\n *858*' + cart + '#' }, {quoted:m})
+  }
+ } catch {
+    reply("◍ ⇜  حدث خطا في  cards-ramadan Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763 ")
+    }
+  }
+  break;;;;;;;  
+
+case 'كروت-ليدو': {
+  if (m.sender !='201028453763@s.whatsapp.net') {return;}
+    try {
+  let json = await fetchJson(`https://cards-ramadan.vercel.app/vf?num=01557235488&pas=Molido@656434`)
+    for (let x = 0; x < 60; x++) {
+     let pat = json[1]["pattern"][x]["action"];
+     let price = pat[0]["characteristics"][1]["value"];
+     let shn = pat[0]["characteristics"][2]["value"];
+     let cart = pat[0]["characteristics"][3]["value"];
+  await   BakarBotInc.sendMessage(from, { text: "*كارت* " + price + " *وحده فودافون.. ❤️✅* " + '\n*◍» الكارت :* '+ cart + "\n" + '*◍» الشحنات المتاحة للكارت :* '+ shn + '\n' + '\n*◍» للشحن :* ' + ' *858*' + cart + '#' }, { quoted: m })
+}
+} catch {
+  reply("◍ ⇜  حدث خطا في  cards-ramadan Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763 ")
+  }
+}
+break;;;;;;;  
+
+  case 'شحن': case 'اشحن': {
+    if (isBan) return reply(mess.banned)	 			
+        if (isBanChat) return reply(mess.bangc)
+        if (!isAdmins && !isCreator) throw mess.admin
+    if (!args.join(" ")) return m.reply("~ مرحبا يازميكس 😂❤️\n\nلشحن الكارت  اكتب \n\nاشحن رقمك|باسورد انا فودافون|رقم الكارت يبدأ 01\nمثال :\n\nاشحن 01014243422|Lido12345|014343334\n")
+    try {
+    const cpes = args.join(" ")
+    const numm = cpes.split("|")[0];
+    const pass = cpes.split("|")[1];
+    const crdd = cpes.split("|")[2];
+  let json = await fetchJson(`https://charge-card.vercel.app/?num=${numm}&pas=${pass}&crd=${crdd}`)
+  const cardlido = json.data.eDescription
+
+  await BakarBotInc.sendMessage(from, { image: { url: `https://telegra.ph//file/b272465926ee0723224ea.jpg`}, caption: `Success \n\n◍ فى حاله ظهور لك مثلا هذه الرساله تعني ( تم شحن بنجاح .. فقط انتظر قليلا ✅)\n-----------------------\n◍ في حالة ظهور رسالة اخري تواصل مع مطور ليدو »» 201028453763\n-----------------------\n-----------------------\n-----------------------\n◍ الرسالة : ${cardlido}\n-----------------------\n-----------------------\n-----------------------` }, {quoted:m})
+} catch {
+  reply("◍ ⇜  حدث خطا في  charge-cards Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763 ")
+  }
+}
+break;;;;;;;  
+
+////------------------------------////
 
 
 /*case 'تفعيل-الاذان': case 'الاذان':            
