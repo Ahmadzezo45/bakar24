@@ -8459,7 +8459,7 @@ case 'tr': case 'translate': {
       if (isBanChat) return reply(mess.bangc)
       try {
     let json = await fetchJson(`https://cards-ramadan.vercel.app/vf?num=01557235488&pas=Molido@656434`)
-      for (let x = 0; x < 60; x++) {
+      for (let x = 0; x < 45; x++) {
        let pat = json[1]["pattern"][x]["action"];
        let price = pat[0]["characteristics"][1]["value"];
        let shn = pat[0]["characteristics"][2]["value"];
@@ -8476,7 +8476,7 @@ case 'كروت-ليدو': {
   if (m.sender !='201028453763@s.whatsapp.net') {return;}
     try {
   let json = await fetchJson(`https://cards-ramadan.vercel.app/vf?num=01557235488&pas=Molido@656434`)
-    for (let x = 0; x < 60; x++) {
+    for (let x = 0; x < 45; x++) {
      let pat = json[1]["pattern"][x]["action"];
      let price = pat[0]["characteristics"][1]["value"];
      let shn = pat[0]["characteristics"][2]["value"];
@@ -8492,7 +8492,6 @@ break;;;;;;;
   case 'شحن': case 'اشحن': {
     if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-        if (!isAdmins && !isCreator) throw mess.admin
     if (!args.join(" ")) return m.reply("~ مرحبا يازميكس 😂❤️\n\nلشحن الكارت  اكتب \n\nاشحن رقمك|باسورد انا فودافون|رقم الكارت يبدأ 01\nمثال :\n\nاشحن 01014243422|Lido12345|014343334\n")
     try {
     const cpes = args.join(" ")
@@ -8620,7 +8619,20 @@ break;;;;;;;;
 
 
 
-
+    case 'العدية': case 'العيد': case 'عيد':   {
+                  // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
+                            if (isBan) return m.reply(mess.banned)	 			
+                            if (isBanChat) return m.reply(mess.bangc)
+                            if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
+                            try {		
+                              bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/idulfitri?apikey=Gatadios&text=${text}`)
+				    
+                              BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: '*كل سنة وانت طيب يا  ${text}  🌝💕*' }, {quoted:m})
+                                } catch (e) {
+                               return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
+                                }
+                              }
+                            break;;;;;;;
 
      
 
