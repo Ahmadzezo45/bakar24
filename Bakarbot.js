@@ -8623,17 +8623,16 @@ break;;;;;;;;
                   // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
                             if (isBan) return m.reply(mess.banned)	 			
                             if (isBanChat) return m.reply(mess.bangc)
-let m1 = fs.readFileSync('./mony/m1.webp')
-let m2 = fs.readFileSync('./mony/m2.webp')
-let m3 = fs.readFileSync('./mony/m3.webp')
-let m4 = fs.readFileSync('./mony/m4.webp')
-let m5 = fs.readFileSync('./mony/m5.webp')
-let m6 = fs.readFileSync('./mony/m6.webp')
-let m7 = fs.readFileSync('./mony/m7.webp')
-let mmmlido = fs.readFileSync(`./mony/${monyy}.webp`)
-	    
-	        let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
-	    let monyy = lidoom[Math.floor(Math.random() * lidoom.length)]
+let mm1 = fs.readFileSync('./mony/m1.webp')
+let mm2 = fs.readFileSync('./mony/m2.webp')
+let mm3 = fs.readFileSync('./mony/m3.webp')
+let mm4 = fs.readFileSync('./mony/m4.webp')
+let mm5 = fs.readFileSync('./mony/m5.webp')
+let mm6 = fs.readFileSync('./mony/m6.webp')
+let mm7 = fs.readFileSync('./mony/m7.webp')
+let mm8 = fs.readFileSync('./mony/m8.webp')
+let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+let moinyy = lidoom[Math.floor(Math.random() * lidoom.length)]
         
                             if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
                             try {		
@@ -8641,7 +8640,7 @@ let mmmlido = fs.readFileSync(`./mony/${monyy}.webp`)
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
                                await sleep(2000)
-BakarBotInc.sendMessage(from, { sticker: mmmlido })
+BakarBotInc.sendMessage(from, { sticker: fs.readFileSync(`./mony/${moinyy}.webp`) })
 				    	    await sleep(2000)
 	    await BakarBotInc.sendMessage(m.chat, {text:`iii fgt♥️🌿`})
 await sleep(2000)
