@@ -8623,6 +8623,16 @@ break;;;;;;;;
                   // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
                             if (isBan) return m.reply(mess.banned)	 			
                             if (isBanChat) return m.reply(mess.bangc)
+	    let lidoo = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+let m1 = fs.readFileSync('./mony/m1.webp')
+let m2 = fs.readFileSync('./mony/m2.webp')
+let m3 = fs.readFileSync('./mony/m3.webp')
+let m4 = fs.readFileSync('./mony/m4.webp')
+let m5 = fs.readFileSync('./mony/m5.webp')
+let m6 = fs.readFileSync('./mony/m6.webp')
+let m7 = fs.readFileSync('./mony/m7.webp')
+let m8 = fs.readFileSync('./mony/m8.webp')
+
                             if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
                             try {		
                               bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/idulfitri?apikey=Gatadios&text=${text}`)
@@ -8631,6 +8641,9 @@ break;;;;;;;;
                                 } catch (e) {
                                return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
+	    await sleep(2000)
+BakarBotInc.sendMessage(from, { sticker: lidoo })
+	    await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
                               }
                             break;;;;;;;
 
