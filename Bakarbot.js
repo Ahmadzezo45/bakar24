@@ -8623,15 +8623,8 @@ break;;;;;;;;
                   // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
                             if (isBan) return m.reply(mess.banned)	 			
                             if (isBanChat) return m.reply(mess.bangc)
-let mm1 = fs.readFileSync('./mony/m1.webp')
-let mm2 = fs.readFileSync('./mony/m2.webp')
-let mm3 = fs.readFileSync('./mony/m3.webp')
-let mm4 = fs.readFileSync('./mony/m4.webp')
-let mm5 = fs.readFileSync('./mony/m5.webp')
-let mm6 = fs.readFileSync('./mony/m6.webp')
-let mm7 = fs.readFileSync('./mony/m7.webp')
-let mm8 = fs.readFileSync('./mony/m8.webp')
-let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+
+let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
 let moinyy = lidoom[Math.floor(Math.random() * lidoom.length)]
         
                             if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
@@ -8639,12 +8632,12 @@ let moinyy = lidoom[Math.floor(Math.random() * lidoom.length)]
                               bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/idulfitri?apikey=Gatadios&text=${text}`)
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
-                               await sleep(2000)
+                               await sleep(3600000)
+			await BakarBotInc.sendMessage(m.chat, {text:`فين العيدية بتاعتي 🥹😂`})
+        await sleep(7200000)
 BakarBotInc.sendMessage(from, { sticker: fs.readFileSync(`./mony/${moinyy}.webp`) })
-				    	    await sleep(2000)
-	    await BakarBotInc.sendMessage(m.chat, {text:`iii fgt♥️🌿`})
 await sleep(2000)
-		await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
+		await BakarBotInc.sendMessage(m.chat, {text:"خد العيدية بتاعتك اهي يقلبي 😂❤️"})
 			    } catch (e) {
                                return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
@@ -8657,13 +8650,22 @@ await sleep(2000)
                   // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
                             if (isBan) return m.reply(mess.banned)	 			
                             if (isBanChat) return m.reply(mess.bangc)
+	    
+let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`,`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+let moinyy = lidoom[Math.floor(Math.random() * lidoom.length)]
                             if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
                             try {		
                               bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/birthdayday?apikey=Gatadios&text=happy eid ya ${text}`)
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
-                                } catch (e) {
-                               return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
+                                 await sleep(3600000)
+			await BakarBotInc.sendMessage(m.chat, {text:`فين العيدية بتاعتي 🥹😂`})
+        await sleep(7200000)
+BakarBotInc.sendMessage(from, { sticker: fs.readFileSync(`./mony/${moinyy}.webp`) })
+await sleep(2000)
+		await BakarBotInc.sendMessage(m.chat, {text:"خد العيدية بتاعتك اهي يقلبي 😂❤️"})
+			    } catch (e) {
+                               return "◍ ⇜  حدث خطا في fitr2 Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
                               }
                             break;;;;;;;
