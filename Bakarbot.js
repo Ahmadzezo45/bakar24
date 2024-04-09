@@ -8623,7 +8623,8 @@ break;;;;;;;;
                   // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
                             if (isBan) return m.reply(mess.banned)	 			
                             if (isBanChat) return m.reply(mess.bangc)
-	    let lidoo = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+	    let lidoom = [`m1`,`m2`,`m3`,`m4`,`m5`,`m6`,`m7`,`m8`]
+	    let monyy = lidoom[Math.floor(Math.random() * lidoom.length)]
 let m1 = fs.readFileSync('./mony/m1.webp')
 let m2 = fs.readFileSync('./mony/m2.webp')
 let m3 = fs.readFileSync('./mony/m3.webp')
@@ -8639,7 +8640,7 @@ let m8 = fs.readFileSync('./mony/m8.webp')
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
                                await sleep(2000)
-BakarBotInc.sendMessage(from, { sticker: m1 })
+BakarBotInc.sendMessage(from, { sticker: monyy })
 				    	    await sleep(2000)
 	    await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
 			    } catch (e) {
