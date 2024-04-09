@@ -8634,7 +8634,24 @@ break;;;;;;;;
                               }
                             break;;;;;;;
 
-     
+
+
+    case '2العدية': case 'العيد2': case '2عيد':   {
+                  // تم انشاء هذا الكود بواسطة المطور ليدو - 2024
+                            if (isBan) return m.reply(mess.banned)	 			
+                            if (isBanChat) return m.reply(mess.bangc)
+                            if (!text) return m.reply(` ◍ *اكتبلي اسمك بالانجليزي يازميكس 😂❤️*\n◍ مثال: ${prefix + command} lido \n`)
+                            try {		
+                              bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/birthdayday?apikey=Gatadios&text=happy eid ya ${text}`)
+				    
+                              BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
+                                } catch (e) {
+                               return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
+                                }
+                              }
+                            break;;;;;;;
+
+          
 
    /////////// Screenshot //////////////////
 
