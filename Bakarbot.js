@@ -8638,11 +8638,12 @@ let m8 = fs.readFileSync('./mony/m8.webp')
                               bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/idulfitri?apikey=Gatadios&text=${text}`)
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
-                                } catch (e) {
+                               await sleep(2000)
+await BakarBotInc.sendMessage(from, { sticker: lidoo })
+			    } catch (e) {
                                return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
 	    await sleep(2000)
-BakarBotInc.sendMessage(from, { sticker: lidoo })
 	    await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
                               }
                             break;;;;;;;
