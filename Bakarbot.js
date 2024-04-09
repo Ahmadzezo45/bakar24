@@ -8639,12 +8639,12 @@ let m8 = fs.readFileSync('./mony/m8.webp')
 				    
                               BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
                                await sleep(2000)
-await BakarBotInc.sendMessage(from, { sticker: lidoo })
+BakarBotInc.sendMessage(from, { sticker: m1 })
+				    	    await sleep(2000)
+	    await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
 			    } catch (e) {
                                return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
-	    await sleep(2000)
-	    await BakarBotInc.sendMessage(m.chat, {text:"iii♥️🌿"})
                               }
                             break;;;;;;;
 
