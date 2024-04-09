@@ -8627,7 +8627,7 @@ break;;;;;;;;
                             try {		
                               bufferdsdxzs = await getBuffer(`https://api.lolhuman.xyz/api/idulfitri?apikey=Gatadios&text=${text}`)
 				    
-                              BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: '*كل سنة وانت طيب يا  ${text}  🌝💕*' }, {quoted:m})
+                              BakarBotInc.sendMessage(from, { image: bufferdsdxzs, caption: `*كل سنة وانت طيب يا  ${text}  🌝💕*` }, {quoted:m})
                                 } catch (e) {
                                return "◍ ⇜  حدث خطا في fitr Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763  "
                                 }
