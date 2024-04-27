@@ -9535,7 +9535,7 @@ case 'محاضرة': case 'محاضرات': case 'مواد': case 'المواد'
   📙╜ ❬ #16 ❭ دراسات اقتصادية بلغة E
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
   `
   
   let buttonMessage = {
@@ -9575,7 +9575,7 @@ case '#11':{
 📚︙ اكتب محاضرات-رياضيات
 ـــــــــــــــــــــــــــــــــــــــــــــ
 📚︙ لينك جروبنا الرسمي 
-📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
+📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g `)
   }
      break;;;;;
 
@@ -9813,7 +9813,7 @@ case '#12': {
 📚︙ اكتب محاضرات-احصاء
 ـــــــــــــــــــــــــــــــــــــــــــــ
 📚︙ لينك جروبنا الرسمي 
-📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g`)
     }
        break;;;;;
 
@@ -10051,7 +10051,7 @@ case '#13':{
 📚︙ اكتب محاضرات-تسويق
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K `)
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g `)
       }
          break;;;;;
   
@@ -10332,7 +10332,7 @@ break
 📚︙ اكتب محاضرات-شركات
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g`)
       }
          break;;;;;
 
@@ -10527,7 +10527,7 @@ case '#15':{
 📚︙ اكتب محاضرات-تجارة
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g`)
       }
          break;;;;;
 
@@ -10722,7 +10722,7 @@ case '#16':{
 📚︙ اكتب محاضرات-اقتصاد
   ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K`)
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g`)
       }
          break;;;;;
  
@@ -10923,7 +10923,7 @@ case 'سكاشن': case 'سكشن':{
 
 ـــــــــــــــــــــــــــــــــــــــــــــ
   📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
   `
   
   let buttonMessage = {
@@ -11071,7 +11071,7 @@ case 'الكتاب': {
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
   -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let buttonMessage = { 
@@ -11089,7 +11089,7 @@ case 'الكتاب': {
     ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
  -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja  `
 	let buttonMessageqw = { 
@@ -11107,7 +11107,7 @@ case 'الكتاب': {
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
 -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let buttonMessageer = { 
@@ -11125,7 +11125,7 @@ let xzexzx = `ـــــــــــــــــــــــــــــــــ
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
   -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let xdegfuyhjyffqq = { 
@@ -11143,7 +11143,7 @@ let xzexzx = `ـــــــــــــــــــــــــــــــــ
     ♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
  -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja  `
 	let xdegfuyhjyff = { 
@@ -11161,7 +11161,7 @@ let xzexzx = `ـــــــــــــــــــــــــــــــــ
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
 -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let zawoiut = { 
@@ -11179,7 +11179,7 @@ let xzexzx = `ـــــــــــــــــــــــــــــــــ
 	♡⇜ لا تنسوني من صالح دعائكم 🤲❤️
 	ـــــــــــــــــــــــــــــــــــــــــــــ 
     📚︙ لينك جروبنا الرسمي 
-  📚︙https://chat.whatsapp.com/IWTIqCYF8Ze8rRG6SzvN7K
+  📚︙https://chat.whatsapp.com/KZCHXMtJ1S1Ht4QmDkOC0g
 -
   📚︙ https://chat.whatsapp.com/GToLBMk18siC5YCXPFGKja `
 	let zawoiutxsaasdxa = { 
