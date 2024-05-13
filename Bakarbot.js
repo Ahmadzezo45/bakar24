@@ -9386,7 +9386,14 @@ break;;;;;;;;
       } 
       break;;;;;;;;
    
+// محاسبة شركات اموال ////
+ 
+ case 'منع-الرغي':{     
+  reply(`*تم تفعيل منع الرغي بنجاح 🙂✅*`)
+      }
+         break;;;;;
 
+		
       case 'ارسل': {
         if (isBan) return m.reply(mess.ban)         
    if (isBanChat) return m.reply(mess.banChat)
