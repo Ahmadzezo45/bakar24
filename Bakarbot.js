@@ -8822,32 +8822,35 @@ await sleep(2000)
     case 'chatgpt':
       case 'شات':
       case 'gpt': {
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
-        if (!q) return reply(`◍  ⇜ مرحبًا! كيف يمكنني مساعدتك اليوم؟ `);
-        try {
-          const apiUrl1 = `https://aemt.me/turbo?text=${encodeURIComponent(q)}`;
-
-          const response1 = await fetch(apiUrl1);
-          const responseData1 = await response1.json();
-
-          let message = "";
-
-          if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.result) {
-            message = responseData1.result;
-          } else {
-            return reply("◍ ⇜  حدث خطا في   Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763");
+            if (isBan) return reply(mess.banned);
+            if (isBanChat) return reply(mess.bangc);
+    
+            if (!q) return reply(`◍  ⇜ مرحبًا! كيف يمكنني مساعدتك اليوم؟ `);
+    
+            try {
+              const apiUrl1 = `https://itzpire.com/ai/gemini-ai?q=${encodeURIComponent(q)}`;
+    
+              const response1 = await fetch(apiUrl1);
+              const responseData1 = await response1.json();
+    
+              let message = "";
+    
+           //   if (response1.code === 200 && responseData1 && responseData1.status === success && responseData1.result) {
+                message = responseData1.result;
+         //     } else {
+          //      return reply("◍ ⇜  حدث خطا في   Api  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور مكي -> ");
+          //    }
+    
+              const me = m.sender;
+              await BakarBotInc.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
+    
+            } catch (error) {
+              console.error(error);
+              reply("◍ ⇜  خطا An error occurred while fetching the response from the API  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور مكي -> ");
+            }
           }
+            break;;;;;;;
 
-          const me = m.sender;
-          await BakarBotInc.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
-
-        } catch (error) {
-          console.error(error);
-          reply("◍ ⇜  خطا An error occurred while fetching the response from the API  √\n◍ فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور ليدو -> 201028453763");
-        }
-      }
-        break;;;;;;;
 
 
   case 'chatgpt1':
